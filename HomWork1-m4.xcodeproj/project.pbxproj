@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C032D7562A8CD6EE00C79472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032D7552A8CD6EE00C79472 /* AppDelegate.swift */; };
+		C032D7582A8CD6EE00C79472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032D7572A8CD6EE00C79472 /* SceneDelegate.swift */; };
+		C032D75A2A8CD6EE00C79472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032D7592A8CD6EE00C79472 /* ViewController.swift */; };
+		C032D75F2A8CD6EF00C79472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C032D75E2A8CD6EF00C79472 /* Assets.xcassets */; };
+		C032D7622A8CD6EF00C79472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C032D7602A8CD6EF00C79472 /* LaunchScreen.storyboard */; };
+		C032D76E2A8CD9B600C79472 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032D76D2A8CD9B600C79472 /* NetworkService.swift */; };
+		C032D7712A8CD9E200C79472 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032D7702A8CD9E200C79472 /* Product.swift */; };
+		C032D7762A8CDEAF00C79472 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032D7752A8CDEAF00C79472 /* ProductTableViewCell.swift */; };
+		C032D7792A8CE26000C79472 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032D7782A8CE26000C79472 /* Constants.swift */; };
+		C429FBAF810BD213FCB5C137 /* Pods_HomWork1_m4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6492C66AB06230BE97273C49 /* Pods_HomWork1_m4.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6492C66AB06230BE97273C49 /* Pods_HomWork1_m4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomWork1_m4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FEBF54FDDDBC380B831B5C /* Pods-HomWork1-m4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomWork1-m4.release.xcconfig"; path = "Target Support Files/Pods-HomWork1-m4/Pods-HomWork1-m4.release.xcconfig"; sourceTree = "<group>"; };
+		C032D7522A8CD6EE00C79472 /* HomWork1-m4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomWork1-m4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C032D7552A8CD6EE00C79472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C032D7572A8CD6EE00C79472 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C032D7592A8CD6EE00C79472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C032D75E2A8CD6EF00C79472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C032D7612A8CD6EF00C79472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C032D7632A8CD6EF00C79472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C032D76D2A8CD9B600C79472 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		C032D7702A8CD9E200C79472 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C032D7752A8CDEAF00C79472 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		C032D7782A8CE26000C79472 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D7894CFE52836D71F5045C71 /* Pods-HomWork1-m4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomWork1-m4.debug.xcconfig"; path = "Target Support Files/Pods-HomWork1-m4/Pods-HomWork1-m4.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C032D74F2A8CD6EE00C79472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C429FBAF810BD213FCB5C137 /* Pods_HomWork1_m4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7377952B92A04B2B429596FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7894CFE52836D71F5045C71 /* Pods-HomWork1-m4.debug.xcconfig */,
+				77FEBF54FDDDBC380B831B5C /* Pods-HomWork1-m4.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DBC7A34FB09A36747081309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6492C66AB06230BE97273C49 /* Pods_HomWork1_m4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C032D7492A8CD6EE00C79472 = {
+			isa = PBXGroup;
+			children = (
+				C032D7542A8CD6EE00C79472 /* HomWork1-m4 */,
+				C032D7532A8CD6EE00C79472 /* Products */,
+				7377952B92A04B2B429596FC /* Pods */,
+				8DBC7A34FB09A36747081309 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C032D7532A8CD6EE00C79472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C032D7522A8CD6EE00C79472 /* HomWork1-m4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C032D7542A8CD6EE00C79472 /* HomWork1-m4 */ = {
+			isa = PBXGroup;
+			children = (
+				C032D7692A8CD8A100C79472 /* App */,
+				C032D76B2A8CD98C00C79472 /* Model */,
+				C032D7722A8CD9E700C79472 /* Controller */,
+				C032D76A2A8CD96D00C79472 /* Resource */,
+			);
+			path = "HomWork1-m4";
+			sourceTree = "<group>";
+		};
+		C032D7692A8CD8A100C79472 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C032D7552A8CD6EE00C79472 /* AppDelegate.swift */,
+				C032D7572A8CD6EE00C79472 /* SceneDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		C032D76A2A8CD96D00C79472 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C032D7632A8CD6EF00C79472 /* Info.plist */,
+				C032D75E2A8CD6EF00C79472 /* Assets.xcassets */,
+				C032D7602A8CD6EF00C79472 /* LaunchScreen.storyboard */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		C032D76B2A8CD98C00C79472 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C032D7772A8CE25000C79472 /* Constants */,
+				C032D76F2A8CD9CB00C79472 /* DataModel */,
+				C032D76C2A8CD99B00C79472 /* NetworkService */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C032D76C2A8CD99B00C79472 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				C032D76D2A8CD9B600C79472 /* NetworkService.swift */,
+			);
+			name = NetworkService;
+			sourceTree = "<group>";
+		};
+		C032D76F2A8CD9CB00C79472 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				C032D7702A8CD9E200C79472 /* Product.swift */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		C032D7722A8CD9E700C79472 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C032D7592A8CD6EE00C79472 /* ViewController.swift */,
+				C032D7742A8CDE9500C79472 /* Component */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C032D7742A8CDE9500C79472 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				C032D7752A8CDEAF00C79472 /* ProductTableViewCell.swift */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		C032D7772A8CE25000C79472 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C032D7782A8CE26000C79472 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C032D7512A8CD6EE00C79472 /* HomWork1-m4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C032D7662A8CD6EF00C79472 /* Build configuration list for PBXNativeTarget "HomWork1-m4" */;
+			buildPhases = (
+				A32141635453B072E1458576 /* [CP] Check Pods Manifest.lock */,
+				C032D74E2A8CD6EE00C79472 /* Sources */,
+				C032D74F2A8CD6EE00C79472 /* Frameworks */,
+				C032D7502A8CD6EE00C79472 /* Resources */,
+				8558129A9E08B92482E1321A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HomWork1-m4";
+			productName = "HomWork1-m4";
+			productReference = C032D7522A8CD6EE00C79472 /* HomWork1-m4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C032D74A2A8CD6EE00C79472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C032D7512A8CD6EE00C79472 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C032D74D2A8CD6EE00C79472 /* Build configuration list for PBXProject "HomWork1-m4" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C032D7492A8CD6EE00C79472;
+			productRefGroup = C032D7532A8CD6EE00C79472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C032D7512A8CD6EE00C79472 /* HomWork1-m4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C032D7502A8CD6EE00C79472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C032D7622A8CD6EF00C79472 /* LaunchScreen.storyboard in Resources */,
+				C032D75F2A8CD6EF00C79472 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8558129A9E08B92482E1321A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomWork1-m4/Pods-HomWork1-m4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomWork1-m4/Pods-HomWork1-m4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomWork1-m4/Pods-HomWork1-m4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A32141635453B072E1458576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomWork1-m4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C032D74E2A8CD6EE00C79472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C032D75A2A8CD6EE00C79472 /* ViewController.swift in Sources */,
+				C032D7562A8CD6EE00C79472 /* AppDelegate.swift in Sources */,
+				C032D7712A8CD9E200C79472 /* Product.swift in Sources */,
+				C032D76E2A8CD9B600C79472 /* NetworkService.swift in Sources */,
+				C032D7792A8CE26000C79472 /* Constants.swift in Sources */,
+				C032D7582A8CD6EE00C79472 /* SceneDelegate.swift in Sources */,
+				C032D7762A8CDEAF00C79472 /* ProductTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C032D7602A8CD6EF00C79472 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C032D7612A8CD6EF00C79472 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C032D7642A8CD6EF00C79472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C032D7652A8CD6EF00C79472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C032D7672A8CD6EF00C79472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7894CFE52836D71F5045C71 /* Pods-HomWork1-m4.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV2B832NGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HomWork1-m4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almaz.HomWork1-m4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C032D7682A8CD6EF00C79472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77FEBF54FDDDBC380B831B5C /* Pods-HomWork1-m4.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV2B832NGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HomWork1-m4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almaz.HomWork1-m4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C032D74D2A8CD6EE00C79472 /* Build configuration list for PBXProject "HomWork1-m4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C032D7642A8CD6EF00C79472 /* Debug */,
+				C032D7652A8CD6EF00C79472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C032D7662A8CD6EF00C79472 /* Build configuration list for PBXNativeTarget "HomWork1-m4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C032D7672A8CD6EF00C79472 /* Debug */,
+				C032D7682A8CD6EF00C79472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C032D74A2A8CD6EE00C79472 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_HomWork1_m4 {
+  umbrella header "Pods-HomWork1-m4-umbrella.h"
+
+  export *
+  module * { export * }
+}
